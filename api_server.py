@@ -1,7 +1,7 @@
-from fastapi import FastAPI, UploadFile, Form, HTTPException
+from fastapi import FastAPI, UploadFile, HTTPException
 from main import generate_reply, process_uploaded_file, analyze_user_message, get_bilan
-import os
 from pydantic import BaseModel
+import uuid
 
 app = FastAPI()
 
@@ -11,10 +11,14 @@ class Message(BaseModel):
 
 @app.post("/chat")
 async def chat(message: Message):
+    if message.conversation_id == "new":  # Si "new", générer un nouveau conversation_id
+        conversation_id = str(uuid.uuid4())  # ID unique pour la nouvelle conversation
+    else:
+        conversation_id = message.conversation_id  # Utiliser celui envoyé
+
     try:
-        # Générer une réponse pour la conversation
-        reply = generate_reply(message.conversation_id, message.text)
-        return {"response": reply}
+        reply = generate_reply(conversation_id, message.text)
+        return {"response": reply, "conversation_id": conversation_id}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"An error occurred: {str(e)}")
 

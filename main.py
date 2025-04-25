@@ -1,14 +1,13 @@
 import os
 import json
 import re
+import uuid
 from fastapi import UploadFile
 from core.llm_interface import ask_llm
 from core.file_processor import summarize_file
 from core.web_research import perform_web_research
-from core.web_memory import search_web_memory
 from core.intent_analyzer import analyze_message
 from core.action_executor import execute_action
-
 from core.memory_engine import store_memory_snapshot
 from core.self_improvement_engine import generate_and_test_patch
 
@@ -18,6 +17,10 @@ os.makedirs(CONVERSATION_DIR, exist_ok=True)
 def sanitize_filename(filename: str) -> str:
     # Supprimer les caractères invalides pour un nom de fichier
     return re.sub(r'[<>:"/\\|?*]', '_', filename)
+
+def generate_new_conversation_id():
+    """Génère un nouvel ID de conversation unique"""
+    return str(uuid.uuid4())
 
 def load_conversation(conversation_id: str) -> list[dict]:
     path = os.path.join(CONVERSATION_DIR, f"{sanitize_filename(conversation_id)}.json")
