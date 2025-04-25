@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "peux -tu me donner une autre réponse ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Bien sûr, Jérémie! Je suis toujours là pour vous aider. Voici une autre réponse à votre question :\n\nLa réponse dépend du contexte de la question que vous avez posée. Si vous avez besoin d'aide avec un problème spécifique ou si vous recherchez des informations sur un sujet, n'hésitez pas à me le faire savoir et je serai ravi de vous aider."
+  }
+]

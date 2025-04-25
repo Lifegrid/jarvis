@@ -1,0 +1,63 @@
+[
+    {
+      "name": "pdf_reader",
+      "input_type": "file",
+      "extensions": [".pdf"]
+    },
+    {
+      "name": "csv_reader",
+      "input_type": "file",
+      "extensions": [".csv"]
+    },
+    {
+      "name": "qr_scanner",
+      "input_type": "file",
+      "extensions": [".png", ".jpg", ".jpeg"]
+    },
+    {
+      "name": "ocr_image",
+      "input_type": "file",
+      "extensions": [".png", ".jpg", ".jpeg"]
+    },
+    {
+      "name": "image_vision",
+      "input_type": "file",
+      "extensions": [".png", ".jpg", ".jpeg", ".webp"]
+    },
+    {
+      "name": "transcribe_audio",
+      "input_type": "file",
+      "extensions": [".mp3", ".wav", ".m4a"]
+    },
+    {
+      "name": "web_link_analyzer",
+      "input_type": "url",
+      "extensions": []
+    },
+    {
+      "name": "smart_text_analyzer",
+      "input_type": "text",
+      "extensions": []
+    },
+    {
+      "name": "email_extractor",
+      "input_type": "text",
+      "extensions": []
+    },
+    {
+      "name": "zip_explorer",
+      "input_type": "file",
+      "extensions": [".zip"]
+    },
+    {
+      "name": "scheduler",
+      "input_type": "text",
+      "extensions": []
+    },
+    {
+      "name": "generate_avatar",
+      "input_type": "text",
+      "extensions": []
+    }
+  ]
+  

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "CoinMarketCap",
+        "category": "crypto",
+        "url": "https://coinmarketcap.com/",
+        "frequency": "daily",
+        "last_scraped": "2025-04-15 16:00:03"
+    },
+    {
+        "name": "Journal du Coin",
+        "category": "crypto",
+        "url": "https://journalducoin.com/",
+        "frequency": "daily",
+        "last_scraped": "2025-04-15 16:00:06"
+    }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "hello Jarvis "
+  },
+  {
+    "role": "assistant",
+    "content": "Bonjour Jérémie ! Comment puis-je vous aider aujourd'hui ? N'hésitez pas à me poser n'importe quelle question ou à demander n'importe quel type d'aide. Je suis là pour vous servir ! 😊"
+  }
+]

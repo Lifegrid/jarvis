@@ -1,0 +1,18 @@
+[
+  {
+    "from": "user",
+    "text": "1745581687831"
+  },
+  {
+    "from": "jarvis",
+    "text": "Salut Jérémie, tu t'es fait une petite erreur dans ta demande. Peux-tu me donner plus d'information sur ce que tu cherches ? Je suis là pour te faire plaisir ! 😃"
+  },
+  {
+    "from": "user",
+    "text": "1745581687831"
+  },
+  {
+    "from": "jarvis",
+    "text": "Hmm, semble pas être un numéro téléphone ni une adresse web. Peut-être est-ce un numéro de série d'un produit ou quelque chose encore. Pouvez-vous me donner plus d'information pour mieux vous aider ? Je suis là pour t'aider ! 😊"
+  }
+]

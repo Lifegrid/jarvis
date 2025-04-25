@@ -1,0 +1,37 @@
+import datetime
+import os
+from memory_engine.memory_utils import load_history, summarize_history
+from web_memory import retrieve_recent_web_memories
+
+BILAN_PATH = "data/daily_bilan.json"
+
+
+def generate_daily_bilan() -> dict:
+    today = datetime.date.today().isoformat()
+    history = load_history()
+    summary = summarize_history(history)
+    web_summaries = retrieve_recent_web_memories(days=1)
+
+    bilan = {
+        "date": today,
+        "summary": summary,
+        "web_insights": web_summaries,
+    }
+    return bilan
+
+
+def save_daily_bilan():
+    bilan = generate_daily_bilan()
+    os.makedirs("data", exist_ok=True)
+    with open(BILAN_PATH, "w", encoding="utf-8") as f:
+        import json
+        json.dump(bilan, f, ensure_ascii=False, indent=2)
+    return bilan
+
+
+def load_daily_bilan() -> dict:
+    if not os.path.exists(BILAN_PATH):
+        return {}
+    with open(BILAN_PATH, "r", encoding="utf-8") as f:
+        import json
+        return json.load(f)

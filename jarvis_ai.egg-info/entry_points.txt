@@ -1,0 +1,2 @@
+[console_scripts]
+jarvis = core_llm.interpreter:main

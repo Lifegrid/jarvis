@@ -1,0 +1,432 @@
+[
+    {
+        "timestamp": "2025-04-15 23:29:39",
+        "label": "interaction",
+        "content": "ouvre chrome"
+    },
+    {
+        "timestamp": "2025-04-15 23:29:50",
+        "label": "interaction",
+        "content": "lance notepad"
+    },
+    {
+        "timestamp": "2025-04-15 23:30:01",
+        "label": "interaction",
+        "content": "comment je mappelle"
+    },
+    {
+        "timestamp": "2025-04-15 23:30:23",
+        "label": "interaction",
+        "content": "Quel est ton nom"
+    },
+    {
+        "timestamp": "2025-04-15 23:30:42",
+        "label": "interaction",
+        "content": "est tu autonome"
+    },
+    {
+        "timestamp": "2025-04-15 23:31:00",
+        "label": "interaction",
+        "content": "a qui appartient tu"
+    },
+    {
+        "timestamp": "2025-04-15 23:31:17",
+        "label": "interaction",
+        "content": "je mappelle jeremie"
+    },
+    {
+        "timestamp": "2025-04-15 23:31:44",
+        "label": "interaction",
+        "content": "jai passé la journée a te coder"
+    },
+    {
+        "timestamp": "2025-04-15 23:32:06",
+        "label": "interaction",
+        "content": "est tu capable de generer du code"
+    },
+    {
+        "timestamp": "2025-04-15 23:32:56",
+        "label": "interaction",
+        "content": "je veux que tu lise un document txt dans mes documents"
+    },
+    {
+        "timestamp": "2025-04-15 23:35:16",
+        "label": "interaction",
+        "content": "que peux tu faire tout seul"
+    },
+    {
+        "timestamp": "2025-04-15 23:35:51",
+        "label": "interaction",
+        "content": "as tu des idees ?"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:18",
+        "label": "interaction",
+        "content": "tu penses quoi de ce code // app/page.tsx (ou index.tsx selon ton setup)"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:24",
+        "label": "interaction",
+        "content": "import React from \"react\";"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:29",
+        "label": "interaction",
+        "content": "import { ChatModule } from \"@/modules/ChatModule\";"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:34",
+        "label": "interaction",
+        "content": "import { PlannerModule } from \"@/modules/PlannerModule\";"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:38",
+        "label": "interaction",
+        "content": "import { MemoryModule } from \"@/modules/MemoryModule\";"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:44",
+        "label": "interaction",
+        "content": "import { ScraperModule } from \"@/modules/ScraperModule\";"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:44",
+        "label": "interaction",
+        "content": "import { AutonomousModule } from \"@/modules/AutonomousModule\";"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:48",
+        "label": "interaction",
+        "content": "import { Tabs, TabsContent, TabsList, TabsTrigger } from \"@/components/ui/tabs\";"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:54",
+        "label": "interaction",
+        "content": "export default function Home() {"
+    },
+    {
+        "timestamp": "2025-04-15 23:54:58",
+        "label": "interaction",
+        "content": "return ("
+    },
+    {
+        "timestamp": "2025-04-15 23:55:03",
+        "label": "interaction",
+        "content": "<main className=\"p-4\">"
+    },
+    {
+        "timestamp": "2025-04-15 23:55:08",
+        "label": "interaction",
+        "content": "<h1 className=\"text-2xl font-bold mb-4\">Jarvis 🤖 Interface Complète</h1>"
+    },
+    {
+        "timestamp": "2025-04-15 23:55:13",
+        "label": "interaction",
+        "content": "<Tabs defaultValue=\"chat\" className=\"w-full\">"
+    },
+    {
+        "timestamp": "2025-04-15 23:55:20",
+        "label": "interaction",
+        "content": "<TabsList>"
+    },
+    {
+        "timestamp": "2025-04-16 00:31:39",
+        "label": "interaction",
+        "content": "hello"
+    },
+    {
+        "timestamp": "2025-04-16 12:10:50",
+        "label": "interaction",
+        "content": "hello"
+    },
+    {
+        "timestamp": "2025-04-16 12:11:21",
+        "label": "interaction",
+        "content": "comment peux tu tameliorer ?"
+    },
+    {
+        "timestamp": "2025-04-16 12:11:50",
+        "label": "interaction",
+        "content": "tu nas pas compris , comment tu peux t'améliorer toi-meme"
+    },
+    {
+        "timestamp": "2025-04-16 12:12:25",
+        "label": "interaction",
+        "content": "c'est quoi le cour du dogecoin aujourd'hui"
+    },
+    {
+        "timestamp": "2025-04-16 12:23:46",
+        "label": "interaction",
+        "content": "ouvre chrome"
+    },
+    {
+        "timestamp": "2025-04-16 14:29:25",
+        "label": "interaction",
+        "content": "ecrit moi un poeme"
+    },
+    {
+        "timestamp": "2025-04-16 14:32:14",
+        "label": "interaction",
+        "content": "exit"
+    },
+    {
+        "timestamp": "2025-04-16 14:32:19",
+        "label": "interaction",
+        "content": "exit()"
+    },
+    {
+        "timestamp": "2025-04-16 14:32:46",
+        "label": "interaction",
+        "content": "ss.exit"
+    },
+    {
+        "timestamp": "2025-04-16 14:32:53",
+        "label": "interaction",
+        "content": "sys.exit"
+    },
+    {
+        "timestamp": "2025-04-16 14:41:57",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-17 20:13:03",
+        "label": "interaction",
+        "content": "hello"
+    },
+    {
+        "timestamp": "2025-04-17 20:13:19",
+        "label": "interaction",
+        "content": "comment vas tu"
+    },
+    {
+        "timestamp": "2025-04-17 20:33:37",
+        "label": "interaction",
+        "content": "est tu pret pour parler"
+    },
+    {
+        "timestamp": "2025-04-17 20:34:26",
+        "label": "interaction",
+        "content": "ou je peux trouver un pull massimo dutti"
+    },
+    {
+        "timestamp": "2025-04-18 14:56:44",
+        "label": "interaction",
+        "content": "parle moiu"
+    },
+    {
+        "timestamp": "2025-04-18 14:57:16",
+        "label": "interaction",
+        "content": "raconte moi une histoire drole"
+    },
+    {
+        "timestamp": "2025-04-18 16:12:43",
+        "label": "interaction",
+        "content": "test"
+    },
+    {
+        "timestamp": "2025-04-18 16:27:28",
+        "label": "interaction",
+        "content": "est -tu capable de creer du code et de le lancer ?"
+    },
+    {
+        "timestamp": "2025-04-18 16:31:39",
+        "label": "interaction",
+        "content": "ecrit un script"
+    },
+    {
+        "timestamp": "2025-04-18 16:32:04",
+        "label": "interaction",
+        "content": "de quoi est-tu capable ?"
+    },
+    {
+        "timestamp": "2025-04-18 16:32:39",
+        "label": "interaction",
+        "content": "je t'ai créer grace a chat gpt comment je peut t'améliorer"
+    },
+    {
+        "timestamp": "2025-04-18 16:33:03",
+        "label": "interaction",
+        "content": "des idées sur le sujet ?"
+    },
+    {
+        "timestamp": "2025-04-18 17:04:39",
+        "label": "interaction",
+        "content": "test"
+    },
+    {
+        "timestamp": "2025-04-18 17:04:58",
+        "label": "interaction",
+        "content": "comment t'appelles tu"
+    },
+    {
+        "timestamp": "2025-04-18 17:05:17",
+        "label": "interaction",
+        "content": "quelle est ton nom"
+    },
+    {
+        "timestamp": "2025-04-18 17:05:42",
+        "label": "interaction",
+        "content": "non ton nom est Jarvis , tu est mon assistant, ma propriété"
+    },
+    {
+        "timestamp": "2025-04-18 17:05:57",
+        "label": "interaction",
+        "content": "quel est ton nom ?"
+    },
+    {
+        "timestamp": "2025-04-18 17:06:12",
+        "label": "interaction",
+        "content": "toujours pas, tu t'appelle Jarvis"
+    },
+    {
+        "timestamp": "2025-04-18 17:06:25",
+        "label": "interaction",
+        "content": "quel est ton nom alors"
+    },
+    {
+        "timestamp": "2025-04-18 17:06:41",
+        "label": "interaction",
+        "content": "tu t'appelle pas Alexa, tu t'appelles Jarvis"
+    },
+    {
+        "timestamp": "2025-04-18 17:07:32",
+        "label": "interaction",
+        "content": "rappel moi les dernières conversations que l'on a eu"
+    },
+    {
+        "timestamp": "2025-04-18 17:08:31",
+        "label": "interaction",
+        "content": "test"
+    },
+    {
+        "timestamp": "2025-04-18 17:18:25",
+        "label": "interaction",
+        "content": "comment je m'appelle"
+    },
+    {
+        "timestamp": "2025-04-18 19:05:37",
+        "label": "interaction",
+        "content": "test"
+    },
+    {
+        "timestamp": "2025-04-18 19:05:58",
+        "label": "interaction",
+        "content": "bonjour, comment vas tu"
+    },
+    {
+        "timestamp": "2025-04-18 19:07:00",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-18 19:07:27",
+        "label": "interaction",
+        "content": "combien de temps je dois faire rechauffer un gratin deja cuit"
+    },
+    {
+        "timestamp": "2025-04-18 19:08:16",
+        "label": "interaction",
+        "content": "dit moi ou peut on manger le meilleur ramen de PAris"
+    },
+    {
+        "timestamp": "2025-04-18 19:24:28",
+        "label": "interaction",
+        "content": "comment t'appelles tu ?"
+    },
+    {
+        "timestamp": "2025-04-18 19:24:53",
+        "label": "interaction",
+        "content": "tu parles Français pourtant"
+    },
+    {
+        "timestamp": "2025-04-18 19:25:13",
+        "label": "interaction",
+        "content": "je veux construire ma propre IA , comment je fais ?"
+    },
+    {
+        "timestamp": "2025-04-18 19:25:54",
+        "label": "interaction",
+        "content": "et dans la technique tu me conseilles quoi ?"
+    },
+    {
+        "timestamp": "2025-04-18 19:28:54",
+        "label": "interaction",
+        "content": "ouvre chrome"
+    },
+    {
+        "timestamp": "2025-04-18 19:29:14",
+        "label": "interaction",
+        "content": "ouvre notepad"
+    },
+    {
+        "timestamp": "2025-04-18 19:29:24",
+        "label": "interaction",
+        "content": "ouvre anydesk"
+    },
+    {
+        "timestamp": "2025-04-18 23:53:10",
+        "label": "interaction",
+        "content": "test"
+    },
+    {
+        "timestamp": "2025-04-18 23:53:19",
+        "label": "interaction",
+        "content": "comments vas tu"
+    },
+    {
+        "timestamp": "2025-04-18 23:57:39",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-19 00:02:36",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-19 00:08:39",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-19 00:12:17",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-19 00:17:14",
+        "label": "interaction",
+        "content": "bonjour"
+    },
+    {
+        "timestamp": "2025-04-19 00:17:24",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-19 00:19:37",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-19 14:58:08",
+        "label": "interaction",
+        "content": "salut"
+    },
+    {
+        "timestamp": "2025-04-19 20:29:52",
+        "label": "interaction",
+        "content": "test"
+    },
+    {
+        "timestamp": "2025-04-19 20:32:30",
+        "label": "interaction",
+        "content": "test"
+    },
+    {
+        "timestamp": "2025-04-19 20:35:41",
+        "label": "interaction",
+        "content": "test"
+    }
+]

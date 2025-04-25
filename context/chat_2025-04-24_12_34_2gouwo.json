@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "test"
+  },
+  {
+    "role": "assistant",
+    "content": "Salut Jérémie! Je suis Jarvis, ton assistant personnel intelligent. Comment puis-je t'aider aujourd'hui? N'hésite pas à me poser des questions ou à me donner des instructions, et je serai ravi de vous assister. 😊"
+  }
+]

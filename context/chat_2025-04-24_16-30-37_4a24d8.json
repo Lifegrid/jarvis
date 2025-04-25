@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Salut"
+  },
+  {
+    "role": "assistant",
+    "content": "Bonjour Jérémie ! Comment tu t'imagines que je pourrais vous aider aujourd'hui ? Est-ce que j'ai pu vous servir de quelque chose dans le passé ? Si oui, n'hésitez pas à me poser des questions ou à demander ce dont vous avez besoin. Je suis là pour vous soutenir et faciliter vos tâches quotidiennes !"
+  }
+]

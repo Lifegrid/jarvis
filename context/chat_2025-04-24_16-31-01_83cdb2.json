@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "Salut"
+  },
+  {
+    "role": "assistant",
+    "content": "Salut Jérémie! Commentes-tu aujourd'hui? Je suis là pour t'aider. Qu'est-ce que je peux faire pour toi?"
+  },
+  {
+    "role": "user",
+    "content": "comment vas tu "
+  },
+  {
+    "role": "assistant",
+    "content": "En tant qu'intelligence artificielle, je ne me sens pas, mais je suis là pour vous aider! Si vous avez des questions ou besoin d'assistance, n'hésitez pas à me le faire savoir."
+  },
+  {
+    "role": "user",
+    "content": "ok super "
+  },
+  {
+    "role": "assistant",
+    "content": "Je suis ravi que vous soyez satisfait! Si vous avez besoin de moi pour quelque chose d'autre, n'hésitez pas à me le faire savoir. J'ai l'intention de rester utile et proactif.😊"
+  }
+]

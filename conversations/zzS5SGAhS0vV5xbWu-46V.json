@@ -1,0 +1,22 @@
+[
+  {
+    "text": "salut",
+    "from": "user",
+    "timestamp": "2025-04-25T12:23:44.945238"
+  },
+  {
+    "text": "Salut ! Comment puis-je vous aider aujourd'hui ? 😊",
+    "from": "jarvis",
+    "timestamp": "2025-04-25T12:23:45.277073"
+  },
+  {
+    "text": "regarde ton code",
+    "from": "user",
+    "timestamp": "2025-04-25T12:23:52.589131"
+  },
+  {
+    "text": "Bien sûr, je suis heureux de vous aider avec votre code. Veuillez copier et coller le code que vous souhaitez que je examine, et je ferai mon meilleur pour vous fournir des conseils et des suggestions.\n\n📝 Code :",
+    "from": "jarvis",
+    "timestamp": "2025-04-25T12:23:53.446336"
+  }
+]

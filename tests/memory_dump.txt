@@ -1,0 +1,125 @@
+Parfait, je te redonne **une roadmap complète et claire**, avec **chaque fonctionnalité listée en bullet point**, **les phases validées** ✅ et **les phases à faire** ⏳, incluant **les améliorations et bonus proposés** :
+
+---
+
+# 🧠 Jarvis – Roadmap Complète & Checklist
+
+---
+
+## ✅ PHASE 1 – Structure du projet
+
+- [x] Dossiers organisés (`core_llm`, `intent`, `code_executor`, `system_access`, `memory_engine`, `web_scraper`, etc.)
+- [x] Fichier `main.py` centralisé et modulaire
+- [x] Installation des dépendances Python et testées (LM Studio, ChromaDB, BeautifulSoup, etc.)
+
+---
+
+## ✅ PHASE 2 – Core LLM
+
+- [x] Intégration de **LM Studio** local via API HTTP
+- [x] Modèle **Mistral-7B-Instruct** chargé et fonctionnel
+- [x] Requêtes LLM simples testées avec succès
+
+---
+
+## ✅ PHASE 3 – Interpréteur vocal et synthèse vocale
+
+- [x] Fonction `speak()` avec voix masculine via pyttsx3
+- [x] Barre d’affichage visuelle animée (Jarvis style)
+- [x] Résultats vocaux intégrés dans `main.py`
+
+---
+
+## ✅ PHASE 4 – Détection d’intention
+
+- [x] `intent_mapper.py` fonctionnel
+- [x] Tests unitaires validés avec détection : `chat`, `launch_app`, `create_file`, `plugin`, `generate_and_run_code`, etc.
+
+---
+
+## ✅ PHASE 5 – Exécution & manipulation de code
+
+- [x] `code_writer.py` pour écrire des scripts
+- [x] `code_engine.py` pour exécuter dynamiquement le code
+- [x] Refactorisation possible à la volée
+- [x] Test unitaire : OK
+
+---
+
+## ✅ PHASE 6 – Interaction avec le PC
+
+- [x] Lancement d’applications (`notepad`, `chrome`, etc.)
+- [x] Installation via `winget` (ex : 7zip)
+- [x] Création, suppression, déplacement de fichiers
+- [x] Commandes système depuis la voix ou l’entrée texte
+
+---
+
+## ✅ PHASE 7 – Apprentissage autonome (scraping + mémoire vectorielle)
+
+- [x] `fetch_page_content()` + `summarize_content()` fonctionnels
+- [x] Stockage dans **ChromaDB** avec embeddings `all-MiniLM-L6-v2`
+- [x] `search_memory()` pour retrouver un contenu indexé
+- [x] `scraping_sources.json` pour config centralisée
+- [x] `scrape_on_demand.py` fonctionnel
+- [x] Résumé LLM corrigé
+
+---
+
+## ✅ PHASE 8 – Mémoire active + profil utilisateur
+
+- [x] `memorize_interaction()` avec timestamp
+- [x] Export automatique de la mémoire
+- [x] `profile_builder.py` avec extraction : prénom, âge, ville, travail, passions, objectif
+- [x] Message d’intro personnalisé : `"Tu t'appelles Jérémie, tu travailles au Crazy Horse à Paris, tu es passionné par la techno..."`
+
+---
+
+## ⏳ PHASE 9 – Base de connaissances personnelle
+
+- [ ] Intégration de tes **fichiers locaux** (PDF, notes, docs)
+- [ ] Résumés auto des fichiers (via `PyMuPDF` ou `pdfplumber`)
+- [ ] Indexation vectorielle de ton savoir personnel
+- [ ] Recherche contextuelle intelligente (type "RAG")
+
+---
+
+## ⏳ PHASE 10 – Interface visuelle CLI/Web
+
+- [ ] Menu CLI interactif pour piloter Jarvis
+- [ ] Affichage de résumé mémoire, scraping, profil
+- [ ] Possibilité : Interface Web React + FastAPI pour usage desktop
+
+---
+
+## ✅ BONUS : Améliorations déjà intégrées
+
+- [x] Résumé visuel Jarvis au lancement
+- [x] Extraction auto d’infos personnelles depuis les requêtes
+- [x] Correction du résumé LLM en fallback si erreur
+- [x] Gestion multi-intentions (`create_and_run_code`, `scrape + vectorisation`)
+- [x] Scraping manuel ou automatique selon config
+- [x] Export `.txt` de mémoire pour relecture
+
+---
+
+## ⏳ BONUS : À intégrer (roadmap future)
+
+- [ ] Scraping **régulier automatisé** (scheduler)
+- [ ] Analyse proactive de contenu (alerte si un sujet t’intéresse)
+- [ ] Mémoire **long terme** persistante via base de données
+- [ ] Gestion multi-profils utilisateurs (famille, collègues, etc.)
+- [ ] API locale pour brancher Jarvis à ton téléphone
+- [ ] Interaction vocale bidirectionnelle en continu
+- [ ] Vision par caméra + reconnaissance objets/visage
+
+---
+
+Tu veux qu’on enchaîne maintenant avec :
+
+1. 📚 La **base de connaissance personnelle** ?
+2. 💻 L’interface CLI/web ?
+3. 🧠 La **mémoire longue durée** ?
+4. Ou un autre bonus dans ta vision de Jarvis de ouf ?
+
+Dis-moi et je te guide fichier par fichier comme d’hab 😎

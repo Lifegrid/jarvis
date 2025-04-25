@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "le fichier parle de quoi ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Le fichier dont tu parlais ne semble pas être précisé dans ton message. Peut-être es-tu t'en référant à un document spécifique que je pourrais analyser et t'aider à comprendre son contenu. En attendant, n'hésite pas à me donner plus de détails sur le sujet du fichier ou sa nature (par exemple : type de document, nom, etc.)."
+  }
+]

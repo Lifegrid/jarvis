@@ -1,0 +1,40 @@
+{
+    "sources": [
+      {
+        "name": "Wikipedia IA",
+        "url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+        "category": "connaissance",
+        "frequency": "weekly",
+        "scrapable_on_demand": true
+      },
+      {
+        "name": "CoinMarketCap",
+        "url": "https://coinmarketcap.com/",
+        "category": "crypto",
+        "frequency": "daily",
+        "scrapable_on_demand": true
+      },
+      {
+        "name": "Le Journal du Coin",
+        "url": "https://journalducoin.com/",
+        "category": "crypto",
+        "frequency": "daily",
+        "scrapable_on_demand": true
+      },
+      {
+        "name": "Les Echos – Finance",
+        "url": "https://www.lesechos.fr/finance-marches",
+        "category": "finance",
+        "frequency": "weekly",
+        "scrapable_on_demand": true
+      },
+      {
+        "name": "Actu IA – IA-Info",
+        "url": "https://www.actuia.com/",
+        "category": "intelligence_artificielle",
+        "frequency": "daily",
+        "scrapable_on_demand": true
+      }
+    ]
+  }
+  

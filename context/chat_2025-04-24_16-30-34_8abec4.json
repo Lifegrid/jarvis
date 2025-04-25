@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Salut"
+  },
+  {
+    "role": "assistant",
+    "content": "Bonjour Jérémie! Comment de ta journée ? Et la tuye ? J'ai l'impression que tu m'as oublié dans les fêtes d'hiver... ❄️🎄"
+  }
+]

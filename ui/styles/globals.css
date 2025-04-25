@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========== FONTES & BASE ========== */
+html, body {
+  @apply text-white bg-black leading-relaxed antialiased;
+  scroll-behavior: smooth;
+  font-feature-settings: "liga" on, "kern" on;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+/* ========== ANIMATIONS ========== */
+@keyframes pulse-bg {
+  0%, 100% { background-position: 50% 50%; }
+  50% { background-position: 48% 52%; }
+}
+
+.animate-pulse {
+  animation: pulse-bg 10s ease-in-out infinite;
+}
+
+/* ========== SCROLL FUTURISTE ========== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* ========== COMPOSANTS UTILITAIRES ========== */
+.card {
+  @apply rounded-xl bg-white/5 backdrop-blur-md border border-white/10 p-4 shadow-md hover:shadow-lg transition-all duration-300;
+}
+
+.glow-text {
+  text-shadow: 0 0 6px rgba(0, 255, 255, 0.4);
+}
+
+/* ========== MOBILE TAP FEEDBACK ========== */
+button, input, textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ========== PLACEHOLDER MODERNE ========== */
+::placeholder {
+  @apply text-zinc-400 italic;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}

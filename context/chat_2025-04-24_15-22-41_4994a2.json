@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Planifie ma journée de demain"
+  },
+  {
+    "role": "assistant",
+    "content": "Salut Jérémie! Je suis ici pour aider à planifier ta journée de demain. Pour commencer, peu de choses à savoir :\n\n1. Quel est ton emploi du temps habituel ?\n2. As-tu des rendez-vous ou des événements spécifiques prévus pour demain ?\n3. Y a-t'il des tâches prioritaires que tu souhaites réaliser ?\n\nConnaissant ces informations, je peux te proposer une journée bien organisée et efficace."
+  }
+]

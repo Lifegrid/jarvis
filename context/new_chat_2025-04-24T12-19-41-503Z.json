@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "bonjour Jarvis"
+  },
+  {
+    "role": "assistant",
+    "content": "Bonjour Jérémie, comment allez-vous aujourd'hui ? Comment puis-je vous aider ?"
+  },
+  {
+    "role": "user",
+    "content": "peut tu analyser un fichier ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Oui, je peux analyser un fichier si ce dernier est en texte brute ou s'il a un format répertorié. Puis-je savoir quel type de fichier vous avez en tête pour m'aider à vous fournir la meilleure assistance possible ?"
+  },
+  {
+    "role": "user",
+    "content": "un pdf ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Bien sûr, je peux analyser et extraire des informations d'un PDF. Pour cela, il faut que le fichier soit accessible sur votre ordinateur ou que vous puissiez partager un lien vers le document en ligne. Quel est l'objectif de cette analyse ? Je peux essayer de vous aider davantage si j'en sais plus sur votre demande."
+  }
+]

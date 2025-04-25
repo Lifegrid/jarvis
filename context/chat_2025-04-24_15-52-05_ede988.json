@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "Salut"
+  },
+  {
+    "role": "assistant",
+    "content": "Bonjour Jérémie ! Comment de tes nouvelles ? Je suis ici pour aider et conversator en proche. N'hésite pas à me poser des questions ou à me donner des instructions."
+  },
+  {
+    "role": "user",
+    "content": "salut "
+  },
+  {
+    "role": "assistant",
+    "content": "Salut Jérémie, je suis là pour vous aider ! Si vous avez besoin de quelque chose, n'hésitez pas à me le demander."
+  }
+]

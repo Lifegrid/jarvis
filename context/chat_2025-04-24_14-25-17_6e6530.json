@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "analyse le fichier pdf "
+  },
+  {
+    "role": "assistant",
+    "content": "❌ Je n'ai pas détecté d'action système claire dans ta phrase."
+  }
+]

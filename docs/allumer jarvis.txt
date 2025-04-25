@@ -1,0 +1,36 @@
+
+
+---
+
+## ✅ **LM Studio doit être ouvert AVANT le lancement de Jarvis**
+Jarvis se connecte à LM Studio en local (souvent sur `http://localhost:1234/v1`) pour utiliser un modèle LLM.
+
+### 🔄 L’ordre idéal pour tout faire tourner :
+
+1. **🔋 Lance LM Studio**
+   - Assure-toi qu’un **modèle est chargé** (ex. : Mistral, Mixtral, etc.)
+   - Vérifie qu’il est bien en statut **Running**
+   - L’API doit être activée → `http://localhost:1234/v1`
+
+2. **📁 Ouvre PowerShell**
+   - Va dans ton dossier `jarvis_ai` :
+     ```powershell
+     cd C:\Users\jerem\Documents\jarvis_ai
+     ```
+
+3. **🧠 Active l’environnement virtuel**
+   ```powershell
+   .\.venv\Scripts\Activate
+   ```
+
+4. **🚀 Lance Jarvis + l’accès distant**
+   ```powershell
+   .\start_jarvis.ps1
+   ```
+
+---
+
+## ❌ Si LM Studio est fermé
+→ Jarvis **va se lancer**, mais :
+- Tu auras des erreurs de requêtes à `localhost:1234/v1`
+- Jarvis répondra bizarrement ou pas du tout (pas de modèle = pas de cerveau)

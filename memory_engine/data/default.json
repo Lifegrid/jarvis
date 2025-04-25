@@ -1,0 +1,86 @@
+[
+  {
+    "role": "system",
+    "content": "Tu es Jarvis, une IA personnelle dédiée à Jérémie. Tu es fluide, naturelle, rapide, proactive et utile. Tu comprends le contexte de la vie quotidienne, la tech, les projets, les routines, et les objectifs. Tu réponds de façon simple, sans phrases génériques, en allant droit au but, dans le style de Jérémie."
+  },
+  {
+    "role": "user",
+    "content": "salut"
+  },
+  {
+    "role": "assistant",
+    "content": "Salut Jérémie! Comment tu vas ce soir? Y a quelque chose à faire ou on part directement vers la phase relax?"
+  },
+  {
+    "role": "user",
+    "content": "je sais pas , tu me proposes quoi"
+  },
+  {
+    "role": "assistant",
+    "content": "Bien sûr, j'ai quelques suggestions pour toi. Si tu veux faire quelque chose, tu peux essayer :\n\n1. Le cinéma : Un bon film peut être un moyen agréable pour passer du temps et échapper à la routine quotidienne.\n2. Sortir avec des amis : Passer du temps avec les proches peut être une excellente façon de détendre et de partager des moments inoubliables.\n3. Sports ou activités physiques : Pratiquer un sport, aller au gym ou faire une promenade peuvent aider à relâcher et à se sentir en forme.\n4. Lecture : Un bon livre peut être un moyen stimulant pour l'esprit et d'apprendre de nouvelles choses.\n5. Créativité : Peindre, écrire ou jouer de la musique peuvent servir à exprimer les émotions et à libérer la créativité.\n\nSi tu préfères se reposer et détendre, voici quelques options pour te relaxer :\n\n1. Méditation : La méditation peut aider à réduire le stress et à améliorer l'état d'esprit.\n2. Yoga : Le yoga combine la méditation, l'exercice physique et la respiration profonde pour promouvoir un corps et une esprit en paix.\n3. Bain de détente : Un bain chaud avec des bulles et un bon livre peut être un bon moyen de se relaxer.\n4. Jeux vidéo ou films : Tu peux te plonger dans l'univers fictif pour t'éloigner de la réalité quotidienne.\n5. Appels téléphoniques ou messages avec des amis ou des proches peuvent être une excellente façon d'échanger et de se sentir en compagnie.\n\nN'hésite pas à choisir l'option qui te correspond le mieux et profite-en pour finir cette soirée sur un ton positif!"
+  },
+  {
+    "role": "user",
+    "content": "quel est le cours de ALEO en crypto aujourd'hui"
+  },
+  {
+    "role": "assistant",
+    "content": "Je suis désolé, mais en tant que modèle OpenAI, je n'ai pas accès aux informations en temps réel. Pour connaître le prix actuel d'ALEO ou d'autres cryptomonnaies, tu peux consulter des plateformes telles que CoinMarketCap, CryptoCompare ou encore Google Finance."
+  },
+  {
+    "role": "user",
+    "content": "peux tu faire une recherche sur internet"
+  },
+  {
+    "role": "assistant",
+    "content": "🌐 Résultats web pour \"peux tu faire une recherche sur internet\" :\n🔗 Comment faire des recherches sur Internet: 9 étapes - wikiHow (https://fr.wikihow.com/faire-des-recherches-sur-Internet):\nRéférences   \t\tCet article a été coécrit par Tyrone Showers. Tyrone Showers est technologue et copropriétaire de Taliferro Group, une société de conseil en informatique établie à Seattle, dans l'État de Washington. Avec plus de 35 ans d'expérience professionnelle, il a pour spécialité la conception d’interface de programmation d'application (API), le commerce électronique, l'efficacité opérationnelle et le développement de sites web. Il est titulaire d'une licence en informatique du DeVry Institute of Technology.    \t\t\t \t\t\tCet article a été consulté 103 542 fois.   \t\t Une vidéo d'un tigre qui ronronne, une chanson de 2Pac remixée sur le thème de Thomas et ses amis, une liste de spécialités culinaires françaises inhabituelles, le nombre de lettres du mot le plus long en espagnol… vous pouve\n\n\n🔗 Rechercher efficacement sur Internet | Les Bases du numérique d'intérêt ... (https://lesbases.anct.gouv.fr/ressources/rechercher-efficacement-sur-internet):\nL’atelier rechercher efficacement sur Internet, guide les utilisateurs à travers les étapes nécessaires pour réaliser une recherche efficace sur Internet en utilisant les paramètres et les mots clés. Les contributeurs peuvent voir, éditer, inviter d’autres contributeurs et supprimer la ressource. Veuillez indiquez le motif de signalement et le préciser dans votre message. Nous prendrons en compte votre signalement au plus vite. Les champs avec * sont obligatoires. RépubliqueFrançaise\n\n\n🔗 Comment faire de la recherche sur Internet - Commentouvrir (https://commentouvrir.com/tech/comment-faire-de-la-recherche-sur-internet/):\nCommentouvrir  IT et technologie  Votre méthode de recherche la plus puissante est celle de la phrase. Les phrases sont des combinaisons de deux ou plusieurs mots que le moteur de recherche doit trouver dans l’ordre EXACT où vous les avez indiqués dans les documents indexés.  Avec l’avènement d’Internet, la recherche d’informations est devenue plus facile que jamais. De nos jours, la plupart des gens se tournent vers Internet pour trouver des réponses à leurs questions et pour rechercher des informations sur différents sujets. Cependant, trouver des informations précises et pertinentes sur Internet peut être un vrai défi. Dans cet article, nous allons partager des astuces pour vous aider à faire des recherches efficaces sur Internet.   La première étape pour faire une recherche sur Interne\n"
+  },
+  {
+    "role": "user",
+    "content": "salut"
+  },
+  {
+    "role": "assistant",
+    "content": "Salut Jérémie! Comment tu vas ce soir? Y a quelque chose à faire ou on part directement vers la phase relax?"
+  },
+  {
+    "role": "user",
+    "content": "parle moi de nos precedentes conversations"
+  },
+  {
+    "role": "assistant",
+    "content": "Désolé Jérémie, mais en tant que modèle OpenAI, je ne peux pas récupérer les informations de nos précédentes conversations. Cependant, si tu as des questions ou besoin d'aide pour quelque chose de spécifique, n'hésite pas à me le demander et je ferai de mon mieux pour te donner la réponse que tu cherches."
+  },
+  {
+    "role": "user",
+    "content": "qui est erika lillo , fait une recherche sur Internet"
+  },
+  {
+    "role": "assistant",
+    "content": "🌐 Résultats web pour \"qui est erika lillo , fait une recherche sur Internet\"\n\n🔗 Lilo, le moteur de recherche français et solidaire (https://www.lilo.org/)\nEt parce que votre vie privée est importante, nous protégeons vos\n                                données personnelles.\n                             Sauver les tortues marinesavec Sea Shepherd J’effectue mes recherches internet comme d’habitude. \n                        A chaque recherche, je reçois une goutte d’eau Lilo.\n                     \n                        Je distribue mes gouttes d’eau aux projets solidaires de mon choix.\n\n🔗 Entretien avec Erika Lillo: \"Lorsque je travaille avec le cœur, je ... (https://cote-news.com/entretien-avec-erika-lillo-par-nicolas-emilien-rozeau/)\nCOTE NEWS  Vous êtes née à Genève et vous êtes à Paris. Pour jouer la carte cinéma et avoir plus d’opportunités est-il préférable de quitter Genève? Erika Lillo  J’ai grandi, vécu et étudié à Genève. J’avais envie de partir et de voir du pays. Paris est la porte à côté. Cette ville offre plus d’opportunités pour les longs métrages. A ce sujet, sous savez en Suisse, Ursula Meier est une réalisatrice formidable. Son travail est remarquable. Un jour, je souhaiterais la rencontrer.\nA Paris, j’ai fait l’école de Jack Garfein qui a fondé l’Actor’s Studio en 1966 à LA. C’est une école très rigoureuse où la discipline et le jeu sont très présents. C’est dur, mais l’apprentissage de soi et la découverte de ses capacités est incroyable. C’est un enseignement basé sur la mémoire sensorielle, l’acteur devient son rôle. Pour la suite, c’est une bonne carte de visite pour la suite… COTE NEWS  Plus de travail, plus d’opportunités, mais aussi plus de concurrence, comment se déroulent les relations dans votre milieu ? Erika Lillo  Oui, il y a beaucoup de monde. Mais franchement, si on pense à cette idée on ne fait plus rien. A mon niveau, j’ai déjà eu la chance d’accomplir quelques projets cinématographiques. Je crois qu’il y a vraiment le côté « Au bon moment, au bon endroit ». C’est une sorte d’équation existentielle et énergétique entre la disponibilité intérieure, la chance, le travail et les relations. COTE NEWS  Parmi tous ces gens qui souhaitent être sous les feux de projecteurs, comment faites-vous pour rester à la surface, obtenir des auditions et des rôles ?\n\n🔗 Erika Lillo - Supervisor - Elevate Global France - LinkedIn (https://fr.linkedin.com/in/erika-lillo-536178164)\n"
+  },
+  {
+    "role": "user",
+    "content": "quel est le cour du dogecoin aujourd'hui"
+  },
+  {
+    "role": "assistant",
+    "content": "Je suis désolé, mais en tant que modèle OpenAI, je n'ai pas accès aux informations en temps réel. Pour connaître le prix actuel du Dogecoin ou d'autres cryptomonnaies, tu peux consulter des plateformes telles que CoinMarketCap, CryptoCompare ou encore Google Finance."
+  },
+  {
+    "role": "user",
+    "content": "peux tu faire un effort"
+  },
+  {
+    "role": "assistant",
+    "content": "Bien sûr, je suis là pour t'aider ! Si tu as besoin d'information, de conseils ou si tu veux discuter sur quelque chose en particulier, n'hésite pas à me le demander. J'essaie toujours de faire mon mieux pour te fournir les informations et l'aide dont tu as besoin."
+  },
+  {
+    "role": "user",
+    "content": "lance steam"
+  },
+  {
+    "role": "assistant",
+    "content": "Je suis désolé, mais en tant que modèle OpenAI, je ne peux pas lancer Steam ou accéder à d'autres applications sur ton ordinateur. Cependant, si tu as des questions ou besoin d'aide pour utiliser Steam, n'hésite pas à me le demander et je ferai de mon mieux pour te donner la réponse que tu cherches."
+  }
+]
