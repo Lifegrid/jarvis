@@ -1,77 +1,65 @@
-from fastapi import FastAPI, UploadFile, File, Form
-from fastapi.responses import JSONResponse
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI, UploadFile, Form, HTTPException
 from main import generate_reply, process_uploaded_file, analyze_user_message, get_bilan
-import glob
 import os
-import json
+from pydantic import BaseModel
 
 app = FastAPI()
 
-# Autoriser le frontend à se connecter à l'API
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # ou ["http://localhost:3000"] pour être plus strict
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+class Message(BaseModel):
+    text: str
+    conversation_id: str
 
 @app.post("/chat")
-async def chat(message: str = Form(...), conversation_id: str = Form(None)):
-    """
-    Endpoint principal pour recevoir un message utilisateur
-    et générer une réponse depuis Jarvis.
-    """
-    reply = generate_reply(message, conversation_id)
-    return {"reply": reply}
+async def chat(message: Message):
+    try:
+        # Générer une réponse pour la conversation
+        reply = generate_reply(message.conversation_id, message.text)
+        return {"response": reply}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"An error occurred: {str(e)}")
 
-@app.post("/upload")
-async def upload(file: UploadFile = File(...), conversation_id: str = Form(None)):
-    """
-    Endpoint pour uploader un fichier et le résumer dans la conversation.
-    """
-    summary = await process_uploaded_file(file, conversation_id)
-    return {"reply": summary}
+@app.post("/upload-file")
+async def upload_file(conversation_id: str, file: UploadFile):
+    try:
+        # Traiter un fichier téléchargé
+        result = process_uploaded_file(conversation_id, file)
+        return {"response": result}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"An error occurred while processing the file: {str(e)}")
 
 @app.get("/bilan")
 async def bilan():
-    """
-    Endpoint pour générer un bilan quotidien intelligent.
-    """
-    bilan = await get_bilan()
-    return {"bilan": bilan}
+    try:
+        # Retourner le bilan quotidien basé sur les souvenirs web et autres sources
+        return {"bilan": get_bilan()}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"An error occurred while generating the bilan: {str(e)}")
 
-@app.get("/conversations")
-async def list_conversations():
-    """
-    Liste toutes les conversations existantes.
-    """
-    conversation_files = glob.glob("conversations/*.json")
-    conversations = []
-    for file_path in conversation_files:
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                history = json.load(f)
-                if history:
-                    first_message = history[0].get("text", "Sans titre")
-                else:
-                    first_message = "Sans titre"
-                conversation_id = os.path.splitext(os.path.basename(file_path))[0]
-                conversations.append({"id": conversation_id, "title": first_message})
-        except Exception:
-            continue
-    return JSONResponse(content={"conversations": conversations})
+@app.get("/discover-superpower")
+async def discover_superpower():
+    try:
+        # Découverte autonome des super-pouvoirs
+        # (pour l'instant, on envoie une proposition fictive pour les tests)
+        superpowers = [
+            "Améliorer l'IA pour des décisions plus intelligentes",
+            "Ajouter un plugin pour automatiser les tâches administratives",
+            "Créer un mode 'sécurité offensive' pour tester des applications"
+        ]
+        return {"superpowers": superpowers}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"An error occurred while discovering superpowers: {str(e)}")
 
-@app.get("/conversation/{conversation_id}")
-async def get_conversation(conversation_id: str):
-    """
-    Récupère tous les messages d'une conversation spécifique.
-    """
-    filepath = os.path.join("conversations", f"{conversation_id}.json")
-    if not os.path.exists(filepath):
-        return JSONResponse(content={"messages": []})
+@app.post("/analyze")
+async def analyze(message: Message):
+    try:
+        # Analyser un message utilisateur pour comprendre son intention
+        result = analyze_user_message(message.text)
+        return {"analysis": result}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"An error occurred while analyzing the message: {str(e)}")
 
-    with open(filepath, "r", encoding="utf-8") as f:
-        messages = json.load(f)
-    return JSONResponse(content={"messages": messages})
+# Ajouter d'autres routes si nécessaire pour de futurs développements
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)

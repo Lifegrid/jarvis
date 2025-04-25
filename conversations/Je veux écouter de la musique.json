@@ -14,5 +14,13 @@
   {
     "from": "jarvis",
     "text": "Hmm, semble pas être un numéro téléphone ni une adresse web. Peut-être est-ce un numéro de série d'un produit ou quelque chose encore. Pouvez-vous me donner plus d'information pour mieux vous aider ? Je suis là pour t'aider ! 😊"
+  },
+  {
+    "from": "user",
+    "text": "1745583678473"
+  },
+  {
+    "from": "jarvis",
+    "text": "Voilà, c'est un peu meilleur ! Il semble que ce nombre soit une séquence aléatoire ou une combinaison de chiffres. Si tu as besoin d'aide pour quelque chose d'autre, n'hésite pas à me le demander ! Je suis là pour t'aider et te faire plaisir ! 😃"
   }
 ]
